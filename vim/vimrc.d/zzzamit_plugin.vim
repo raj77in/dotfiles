@@ -221,7 +221,7 @@ let Tlist_File_Fold_Auto_Close = 1 " Do not close tags for other files
 let Tlist_Enable_Fold_Column = 1 " Do not show folding tree
 let Tlist_Show_One_File = 1 " only display the tag of current file
 
-set tags=./tags,../tags,./../../tags,./**/tags,/home/amitag/.tags/tags  " which tags files CTRL-] will search
+set tags=./tags,../tags,./../../tags,./**/tags,~/.tags/tags  " which tags files CTRL-] will search
 
 " }}}
 "
@@ -310,7 +310,8 @@ let g:ftcolor_color_mappings.pas = 'borland'
 let g:ftcolor_color_mappings.java = ['eclipse', 'light']
 let g:ftcolor_color_mappings.cs = ['blueshift']
 let g:ftcolor_color_mappings.vimwiki = ['molokai']
-let g:ftcolor_color_mappings.python = ['elda']
+let g:ftcolor_color_mappings.python = ['mellow']
+let g:ftcolor_color_mappings.py = ['mellow']
 let g:ftcolor_color_mappings.gnuplot = ['CandyPaper']
 " let g:ftcolor_color_mappings.sh = ['PaperColor', 'dark']
 let g:ftcolor_color_mappings.sh = ['nazca']

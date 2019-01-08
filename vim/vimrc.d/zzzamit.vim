@@ -308,7 +308,7 @@ let c_space_errors = 1
 let &t_SI = "\<Esc>]12;green\x7"
 let &t_EI = "\<Esc>]12;red\x7"
 
-set tags=./tags,../tags,./../../tags,./**/tags,/home/amitag/.tags/tags
+set tags=./tags,../tags,./../../tags,./**/tags,~/.tags/tags
 " change colorscheme on cursor hold.
 ":autocmd CursorHold * call NextColor(1)
 "

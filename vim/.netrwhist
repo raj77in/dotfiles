@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/mnt/Data/Documents/git/my/git-my/dotfiles/vim/plugin'
 let g:netrw_dirhist_2='/mnt/Data/Documents/git/my/git-my/dotfiles/vim/plugin/settings'
+let g:netrw_dirhist_3='/mnt/Data/Documents/git/my/git-my/github_my/zsh/oh-my-zsh/plugins/git'
+let g:netrw_dirhist_4='/mnt/Data/Documents/git/my/git-my/dotfiles/config/dunstrc'
+let g:netrw_dirhist_5='/mnt/Data/Documents/git/my/git-my/dotfiles/i3/my/i3blocks-bar'
+let g:netrw_dirhist_6='~/.tmux'

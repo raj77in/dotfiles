@@ -1,12 +1,9 @@
-# rofi.theme: /usr/share/rofi/themes/Paper.rasi
 rofi.theme:	    ~/.cache/wal/colors-rofi-light.rasi
 rofi.combi-modi:    window,run,ssh
 rofi.font:          hack 10
 rofi.modi:          run,ssh,window
 rofi.lines:	    10
 rofi.columns:	    4
-rofi.ssh-client:    /home/amitag/bin/xssh.sh
+rofi.ssh-client:    ~/bin/xssh.sh
 rofi.ssh-command:   {ssh-client} {host}
 rofi.color-enabled: true
-
-

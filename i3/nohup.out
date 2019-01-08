@@ -1,4 +1,4 @@
-Error when reading configuration file "/home/amitag/.config/i3/compton.conf", line 28: duplicate setting name
+Error when reading configuration file "~/.config/i3/compton.conf", line 28: duplicate setting name
 [    80.89 ] error    3 BadWindow    request    2 minor    0 serial  28737: "BadWindow (invalid Window parameter)"
 [    80.89 ] error    3 BadWindow    request  129 minor    6 serial  28738: "BadWindow (invalid Window parameter)"
 [    80.89 ] error    3 BadWindow    request   20 minor    0 serial  28739: "BadWindow (invalid Window parameter)"

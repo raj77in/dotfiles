@@ -146,8 +146,8 @@ augroup amit_ft
         autocmd FileType mail   set tw=78
         autocmd FileType mail   set shiftwidth=3
         autocmd FileType mail   set expandtab
-        autocmd FileType mail   map ,sig :silent read !/home/amitag/bin/signature<CR>
-        autocmd FileType mail   imap ,sig <ESC>:silent read !/home/amitag/bin/signature<CR>
+        autocmd FileType mail   map ,sig :silent read !~/bin/signature<CR>
+        autocmd FileType mail   imap ,sig <ESC>:silent read !~/bin/signature<CR>
         autocmd FileType xslt   set ts=4
         autocmd FileType xslt   set shiftwidth=4
         autocmd FileType txt    set ts=4

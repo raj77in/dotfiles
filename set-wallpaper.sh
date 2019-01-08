@@ -14,7 +14,7 @@
 #        AUTHOR: Amit Agarwal (aka), <redacted>
 #  ORGANIZATION: Individual
 #       CREATED: 10/09/2018 11:30
-# Last modified: Tue Nov 06, 2018  11:51AM
+# Last modified: Thu Dec 06, 2018  12:18PM
 #      REVISION:  ---
 #===============================================================================
 
@@ -31,12 +31,13 @@ do
         nohup /usr/bin/variety >/tmp/variety.log 2>/tmp/variety-error.log &
     fi
     backg=$(variety --get |tail -1)
-    ~/.local/bin/wal -n -i "$backg" -g
+    # ~/.local/bin/wal -n -i "$backg" -g -l
+    ~/.local/bin/wal -n -i "$backg"
     sleep 60
 done
 exit 0
 
-f=( "/home/amitag/Pictures/wallpapers" "/home/amitag/Pictures/Favs" )
+f=( "~/Pictures/wallpapers" "~/Pictures/Favs" )
 
 while true
 do
