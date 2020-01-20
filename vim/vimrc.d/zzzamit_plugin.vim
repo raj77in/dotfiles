@@ -289,12 +289,7 @@ let g:BASH_FormatYear            = 'year %Y'
 let g:BASH_AuthorName   = 'Amit Agarwal'
 let g:BASH_Email        = '<redacted>'
 let g:BASH_Company      = 'Mobileum India Pvt Ltd.'
-" let g:BASH_LocalTemplateFile = $HOME.'/.vim/bash-support/templates/Templates'
-" let g:BASH_LocalTemplateFile = $HOME.'/.vim/bash-support/templates/Templates'
-" let g:BASH_LocalTemplateFile = '/mnt/Data/Documents/git/my/git-my/github_my/vim/pack/my-plugins/start/bash-support.vim/bash-support/templates/Templates'
-" let g:BASH_PluginDir = $HOME."/.vim/bash-support"
-" let g:BASH_GlobalTemplateFile = $HOME.'/.vim/bash-support/templates/Templates'
-
+" let g:BASH_LocalTemplateFile = '/root/kali-setup/dotfiles/vim/bash-support/templates/Templates'
 " }}}
 "
 "

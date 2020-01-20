@@ -1,9 +1,4 @@
-" colorscheme pyte_2
-"colorscheme LightGreen
-"
-colorscheme wal
-"Settings for commong things.
-" :call cfi#load()
+colorscheme kolor
 
 set shiftwidth=4
 set softtabstop=4

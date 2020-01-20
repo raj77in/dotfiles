@@ -1,3 +1,93 @@
 [submodule "vim/pack/my-plugins/opt/python-mode"]
 	path = vim/pack/my-plugins/opt/python-mode
 	url = https://github.com/python-mode/python-mode
+[submodule "vim/pack/my-plugins/start/awk-support.vim"]
+	path = vim/pack/my-plugins/start/awk-support.vim
+	url = https://github.com/vim-scripts/awk-support.vim
+[submodule "vim/pack/my-plugins/start/bash-support.vim"]
+	path = vim/pack/my-plugins/start/bash-support.vim
+	url = https://github.com/vim-scripts/bash-support.vim
+[submodule "vim/pack/my-plugins/start/ctrlp.vim"]
+	path = vim/pack/my-plugins/start/ctrlp.vim
+	url = https://github.com/vim-scripts/ctrlp.vim
+[submodule "vim/pack/my-plugins/start/current-func-info.vim"]
+	path = vim/pack/my-plugins/start/current-func-info.vim
+	url = https://github.com/vim-scripts/current-func-info.vim
+[submodule "vim/pack/my-plugins/start/c.vim"]
+	path = vim/pack/my-plugins/start/c.vim
+	url = https://github.com/vim-scripts/c.vim
+[submodule "vim/pack/my-plugins/start/ftcolor.vim"]
+	path = vim/pack/my-plugins/start/ftcolor.vim
+	url = https://github.com/vim-scripts/ftcolor.vim
+[submodule "vim/pack/my-plugins/start/Dockerfile.vim"]
+	path = vim/pack/my-plugins/start/Dockerfile.vim
+	url = https://github.com/ekalinin/Dockerfile.vim
+[submodule "vim/pack/my-plugins/start/Improved-AnsiEsc"]
+	path = vim/pack/my-plugins/start/Improved-AnsiEsc
+	url = https://github.com/vim-scripts/Improved-AnsiEsc
+[submodule "vim/pack/my-plugins/start/MultipleSearch"]
+	path = vim/pack/my-plugins/start/MultipleSearch
+	url = https://github.com/vim-scripts/MultipleSearch
+[submodule "vim/pack/my-plugins/start/perl-support.vim"]
+	path = vim/pack/my-plugins/start/perl-support.vim
+	url = https://github.com/vim-scripts/perl-support.vim
+[submodule "vim/pack/my-plugins/start/kernel-coding-style"]
+	path = vim/pack/my-plugins/start/kernel-coding-style
+	url = https://github.com/icx-jonv/kernel-coding-style
+[submodule "vim/pack/my-plugins/start/rest.vim"]
+	path = vim/pack/my-plugins/start/rest.vim
+	url = https://github.com/vim-scripts/rest.vim
+[submodule "vim/pack/my-plugins/start/python-mode"]
+	path = vim/pack/my-plugins/start/python-mode
+	url = https://github.com/python-mode/python-mode
+[submodule "vim/pack/my-plugins/start/snipmate-snippets"]
+	path = vim/pack/my-plugins/start/snipmate-snippets
+	url = https://github.com/vim-scripts/snipmate-snippets
+[submodule "vim/pack/my-plugins/start/spec.vim"]
+	path = vim/pack/my-plugins/start/spec.vim
+	url = https://github.com/vim-scripts/spec.vim
+[submodule "vim/pack/my-plugins/start/supertab"]
+	path = vim/pack/my-plugins/start/supertab
+	url = https://github.com/vim-scripts/supertab
+[submodule "vim/pack/my-plugins/start/taglist.vim"]
+	path = vim/pack/my-plugins/start/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim
+[submodule "vim/pack/my-plugins/start/tlib_vim"]
+	path = vim/pack/my-plugins/start/tlib_vim
+	url = https://github.com/tomtom/tlib_vim
+[submodule "vim/pack/my-plugins/start/todo.vim"]
+	path = vim/pack/my-plugins/start/todo.vim
+	url = https://github.com/vim-scripts/todo.vim
+[submodule "vim/pack/my-plugins/start/todo.txt-cli"]
+	path = vim/pack/my-plugins/start/todo.txt-cli
+	url = https://github.com/todotxt/todo.txt-cli
+[submodule "vim/pack/my-plugins/start/vim-addon-mw-utils"]
+	path = vim/pack/my-plugins/start/vim-addon-mw-utils
+	url = https://github.com/vim-scripts/vim-addon-mw-utils
+[submodule "vim/pack/my-plugins/start/vim-linux-coding-style"]
+	path = vim/pack/my-plugins/start/vim-linux-coding-style
+	url = https://github.com/vivien/vim-linux-coding-style
+[submodule "vim/pack/my-plugins/start/vim-colorschemes"]
+	path = vim/pack/my-plugins/start/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes
+[submodule "vim/pack/my-plugins/start/vimpager"]
+	path = vim/pack/my-plugins/start/vimpager
+	url = https://github.com/vim-scripts/vimpager
+[submodule "vim/pack/my-plugins/start/vim-perl"]
+	path = vim/pack/my-plugins/start/vim-perl
+	url = https://github.com/vim-perl/vim-perl
+[submodule "vim/pack/my-plugins/start/vim-python-pep8-indent"]
+	path = vim/pack/my-plugins/start/vim-python-pep8-indent
+	url = https://github.com/Vimjas/vim-python-pep8-indent
+[submodule "vim/pack/my-plugins/start/vim-showmarks"]
+	path = vim/pack/my-plugins/start/vim-showmarks
+	url = https://github.com/jacquesbh/vim-showmarks
+[submodule "vim/pack/my-plugins/start/snipMate"]
+	path = vim/pack/my-plugins/start/snipMate
+	url = https://github.com/vim-scripts/snipMate
+[submodule "vim/pack/my-plugins/start/vimtodo"]
+	path = vim/pack/my-plugins/start/vimtodo
+	url = https://github.com/vim-scripts/vimtodo
+[submodule "vim/pack/my-plugins/start/yaml.vim"]
+	path = vim/pack/my-plugins/start/yaml.vim
+	url = https://github.com/vim-scripts/yaml.vim

@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/mnt/Data/Documents/git/my/git-my/dotfiles/bin/home/bin/bills'
-let g:netrw_dirhist_2='/mnt/Data/CVS/Roamware/platform/ipprobe/6.0'
-let g:netrw_dirhist_3='/mnt/Data/CVS/Roamware/platform/ipprobe'
