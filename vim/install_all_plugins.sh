@@ -46,8 +46,14 @@ repos=( "https://github.com/vim-scripts/bash-support.vim.git"
 "https://github.com/raj77in/vim_colorschemes.git"
 "https://github.com/mivok/vimtodo.git" )
 
-cd vim/pack/start
-for i in ${repos[@]}
+VIMP="$HOME/.vim/pack/my-plugins/start/"
+[[ ! -d "$VIMP" ]] && mkdir -p "$VIMP"
+cd "$VIMP" || exit 1 
+for i in "${repos[@]}"
 do
-    git clone $i
+    git clone "$i"
 done
+
+cd "$HOME/.vim" || exit
+echo "bash support plugin does not like the template in any other path :)"
+cp  .vim/pack/my-plugins/start/bash-support.vim/bash-support/templates/  bash-support/templates/Templates

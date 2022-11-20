@@ -8,8 +8,8 @@ done
 export HISTCONTROL=ignoreboth:ignoredupes
 export HISTSIZE=10000
 
-export EDITOR=vim
-export VISUAL_EDITOR=vim
+export EDITOR=lvim
+export VISUAL_EDITOR=$EDITOR
 
 # source files
 [ -r /usr/share/bash-completion/completions ] &&
@@ -188,7 +188,7 @@ function exitstatus ()
 # neofetch
 # screenfetch
 #
-bash $(cd $(dirname $(realpath ${BASH_SOURCE[0]}))/..;pwd)/shell-color-scripts/randomcolors.sh
+bash ~/kali-setup/shell-color-scripts/randomcolors.sh
 
 # eval "$(starship init bash)"
 
@@ -212,12 +212,12 @@ EOF
 echo -e "\033[0;00m"
 
 ## Setup pentools
-export PATH="$PATH:~/tools"
-export PT_BASE="~/tools"
-export PT_ODIR="~/CTF/hackthebox/scans/$HOSTNAME/"
+export PATH="$PATH:$HOME/tools"
+export PT_BASE="$HOME/tools"
+export PT_ODIR="$HOME/CTF/hackthebox/scans/$HOSTNAME/"
 export PT_TUN="tun0"
-export PT_GDIR="~/amitag/git/tools/"
-export PT_TDIR="/root/amitag/tools/"
+export PT_GDIR="$HOME/amitag/git/tools/"
+export PT_TDIR="$HOME/amitag/tools/"
 export PT_LPORT=8001
 
 alias spacevim='docker run -it -v $PWD:/docs -v ~/.SpaceVim.d:/home/spacevim/.SpaceVim.d --rm spacevim/spacevim nvim /docs'
