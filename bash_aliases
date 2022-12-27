@@ -25,6 +25,13 @@ then
 fi
 
 
+if [[ -d ~/.bash.d ]]
+then
+    source ~/.bash.d/alias
+    source ~/.bash.d/funcs
+fi
+
+
 test -s ~/.bash.d/.alias && . ~/.bash.d/.alias || true
 test -s ~/.bash.d/.funcs && . ~/.bash.d/.funcs || true
 

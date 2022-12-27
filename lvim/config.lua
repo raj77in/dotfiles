@@ -70,18 +70,18 @@ lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
-  "bash",
-  "c",
-  "javascript",
-  "json",
-  "lua",
-  "python",
-  "typescript",
-  "tsx",
-  "css",
-  "rust",
-  "java",
-  "yaml",
+    "bash",
+    "c",
+    "javascript",
+    "json",
+    "lua",
+    "python",
+    "typescript",
+    "tsx",
+    "css",
+    "rust",
+    "java",
+    "yaml",
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
@@ -131,54 +131,79 @@ lvim.builtin.treesitter.highlight.enable = true
 -- -- set a formatter, this will override the language server formatting capabilities (if it exists)
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
-  { command = "black", filetypes = { "python" } },
-  { command = "isort", filetypes = { "python" } },
-  {
-    -- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
-    command = "prettier",
-    ---@usage arguments to pass to the formatter
-    -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
-    extra_args = { "--print-with", "100" },
-    ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
-    filetypes = { "typescript", "typescriptreact" },
-  },
+    { command = "black", filetypes = { "python" } },
+    { command = "isort", filetypes = { "python" } },
+    {
+    	-- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
+    	command = "prettier",
+    	---@usage arguments to pass to the formatter
+    	-- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
+    	extra_args = { "--print-with", "100" },
+    	---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
+    	filetypes = { "typescript", "typescriptreact" },
+    },
 }
 
 -- -- set additional linters
 local linters = require "lvim.lsp.null-ls.linters"
 linters.setup {
-  { command = "flake8", filetypes = { "python" } },
-  {
-    -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
-    command = "shellcheck",
-    ---@usage arguments to pass to the formatter
-    -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
-    extra_args = { "--severity", "warning" },
-  },
-  {
-    command = "codespell",
-    ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
-    filetypes = { "javascript", "python" },
-  },
+    { command = "flake8", filetypes = { "python" } },
+    {
+    	-- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
+    	command = "shellcheck",
+    	---@usage arguments to pass to the formatter
+    	-- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
+    	extra_args = { "--severity", "warning" },
+    },
+    {
+    	command = "codespell",
+    	---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
+    	filetypes = { "javascript", "python" },
+    },
 }
 
 -- Additional Plugins
 lvim.plugins = {
-  {
-    "folke/trouble.nvim",
-    cmd = "TroubleToggle",
-  },
-   { "justinmk/vim-sneak" },
-  { "github/copilot.vim" },
-  { "tpope/vim-surround" },
-  -- themes
-  { "getomni/neovim" },
-  { "Mofiqul/dracula.nvim" },
-  {"shaeinst/roshnivim-cs"},
-  {"bluz71/vim-nightfly-colors"},
-  {"lunarvim/colorschemes"},
-  {"tjdevries/gruvbuddy.nvim"},
-  {"arcticicestudio/nord-vim"},
+    {
+    	"folke/trouble.nvim",
+    	cmd = "TroubleToggle",
+    },
+    { "justinmk/vim-sneak" },
+    { "github/copilot.vim" },
+    { "tpope/vim-surround" },
+    -- themes
+    { "getomni/neovim" },
+    { "Mofiqul/dracula.nvim" },
+    {"shaeinst/roshnivim-cs"},
+    {"bluz71/vim-nightfly-colors"},
+    {"lunarvim/colorschemes"},
+    {"tjdevries/gruvbuddy.nvim"},
+    {"arcticicestudio/nord-vim"},
+    {"vim-scripts/bash-support.vim"},
+    {"psf/black"},
+    {"vim/colorschemes"},
+    {"vim-scripts/c.vim"},
+    {"ekalinin/Dockerfile.vim"},
+    {"caglartoklu/ftcolor.vim"},
+    {"PotatoesMaster/i3-vim-syntax"},
+    {"vim-scripts/MultipleSearch"},
+    {"scrooloose/nerdtree"},
+    {"vim-scripts/rest.vim"},
+    {"tmhedberg/SimpylFold"},
+    {"bridgeutopia/snipmate-snippets"},
+    {"ervandew/supertab"},
+    {"tomtom/tlib_vim"},
+    {"ginatrapani/todo.txt-cli"},
+    {"vim-scripts/todo.vim"},
+    {"MarcWeber/vim-addon-mw-utils"},
+    {"tomasiser/vim-code-dark"},
+    {"flazz/vim-colorschemes"},
+    {"ryanoasis/vim-devicons"},
+    {"Vimjas/vim-python-pep8-indent"},
+    {"jacquesbh/vim-showmarks"},
+    {"garbas/vim-snipmate"},
+    {"raj77in/vim_colorschemes"},
+    {"mivok/vimtodo" },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)

@@ -13,7 +13,6 @@ filetype plugin on
 filetype indent on
 
 behave xterm
-" let &t_Co = 256
 "set t_AB=^[[48;5;%dm
 "set t_AF=^[[38;5;%dm
 let maplocalleader=','          " all my macros start with ,
@@ -205,8 +204,6 @@ set fo+=c fo+=r fo+=o
 " }}}
 
 set t_Co=16777216
-" set t_Co=256
-" set t_Co=256
 " set t_AF=^[[38;2;%p1%{65536}%\/%d;%p1%{256}%\/%{255}%&%d;%p1%{255}%&%dm
 " set t_AB=^[[48;2;%p1%{65536}%\/%d;%p1%{256}%\/%{255}%&%d;%p1%{255}%&%dm
 
